@@ -14,7 +14,6 @@ public class Program2 {
 
         System.out.println(list);
 
-        
         int min = 0;
         int max = 0;
         int sumArith = 0;
