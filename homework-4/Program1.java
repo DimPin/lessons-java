@@ -16,7 +16,7 @@ public class Program1 {
     public static LinkedList<Integer> reverse(LinkedList<Integer> linkedList) {
         LinkedList<Integer> newlinkedList = new LinkedList<>();
         for (int i = linkedList.size()-1; i >= 0; i--) {
-            newlinkedList.add(i);
+            newlinkedList.add(linkedList.get(i));
         }
         return newlinkedList;
     }
